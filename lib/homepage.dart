@@ -9,7 +9,7 @@ var places=[
   'india',
   'china',
   'america',
-  'swiserland',
+  'Switzerland',
   'korea',
   'japan',
 ];
@@ -25,12 +25,12 @@ var places=[
   
    HomePage({super.key});
    List <String> image =[
-    'https://c4.wallpaperflare.com/wallpaper/758/323/699/nature-scenery-beautiful-mountain-wallpaper-wallpaper-preview.jpg',
-    'https://img.freepik.com/free-photo/forest-landscape_71767-127.jpg',
-    'https://wallpapers.com/images/featured/beautiful-scenery-wnxju2647uqrcccv.jpg',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjqCY8GaL23LlFtUtG2COsq7F2ZhuzS-UrMMXqAhpJIL-_5QhYFcuCwKWPWsD6pvPpaPI&usqp=CAU',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6jrVbuTaa4uI310jal2oPp3rgO8GMO5Mc6isdCteNVmV5ovVboUSIUYSGT2bbjjlxt0&usqp=CAU',
-    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRRZ_ibb4FGZAR21ywSbf0wXnvgJHV3hTLXontm0noMV5fA0r5vyx7Eqg0T64VC4_fVQGk&usqp=CAU',
+    'assets/images/city (1).jpg',
+    'assets/images/city (2).jpg',
+    'assets/images/city (3).jpg',
+    'assets/images/natur2 (3).jpg',
+    'assets/images/natur2 (6).jpg',
+    'assets/images/natur2 (4).jpg',
   ];
   @override
   Widget build(BuildContext context) {
@@ -68,7 +68,7 @@ var places=[
                                 color: Colors.black,
                                 borderRadius: BorderRadius.circular(15),
                                 image:  DecorationImage(
-                                  image:NetworkImage(image[index]),
+                                  image:AssetImage(image[index]),
                                   fit: BoxFit.cover,
                                   opacity: 0.7,
                               
@@ -148,7 +148,7 @@ var places=[
                                 color: Colors.black,
                                 borderRadius: BorderRadius.circular(15),
                                 image:   DecorationImage(
-                                  image:NetworkImage(image[index]),
+                                  image:AssetImage(image[index]),
                                   fit: BoxFit.cover,
                                   opacity: 0.8,
                                   )

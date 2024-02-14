@@ -46,6 +46,7 @@ class PostBottomBar extends StatelessWidget {
                   style: TextStyle(
                     color: Colors.black54,
                     fontSize: 16,
+                    fontWeight: FontWeight.w300
                   ),
                   textAlign: TextAlign.justify,
                   ),
